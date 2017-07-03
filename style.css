@@ -1,0 +1,108 @@
+/*
+	Projekt: Webové apliace, WAP
+	Autor: Ondřej Šlampa, xslamp01@stud.fit.vutbr.cz
+	Popis souboru: Tento soubor obsahuje styl elementů projektu.
+*/
+
+/*
+	Panel se zobrazeným DOM.
+*/
+#dom_panel{
+	padding:0;
+    margin:0;
+    background-color:whiteSmoke;
+    font-size:75%;
+    z-index:100;
+    position:absolute;
+    top:0;
+}
+
+/*
+    Panel DOM je vlevo.
+*/
+.float_left{
+    left:0;
+}
+
+/*
+    Panel DOM je vpravo.
+*/
+.float_right{
+    right:0;
+}
+
+/*
+	Element stránky, který je momentálně vybrán.
+*/
+.highlight{
+	border-width:5px;
+	border-style:solid;
+	border-color:red;
+}
+
+/*
+	Kořenový element DOM.
+*/
+.top_list{
+	padding:0;
+    margin:0;
+}
+
+/*
+	Seznam elementů v DOM.
+*/
+.item_list{
+    margin:0;
+}
+
+/*
+	Lichý potomek v DOM.
+*/
+.odd_item{
+	background-color:lightGray;
+	border-style:solid;
+	border-width:thin;
+	list-style:none;
+	border-color:black;
+}
+
+/*
+	Sudý potomek v DOM.
+*/
+.even_item{
+	background-color:darkGray;
+	border-style:solid;
+	border-width:thin;
+	list-style:none;
+	border-color:black;
+}
+
+/*
+	Vybraný element v DOM.
+*/
+.selected_item{
+	background-color:white;
+	border-style:solid;
+	border-width:thin;
+	list-style:none;
+	border-color:red;
+}
+
+/*
+	Formulář vybraného elementu DOM.
+*/
+.selected_form{
+	border-style:solid;
+	border-width:thin;
+	border-color:red;
+	margin:1em;
+}
+
+/*
+	Popisky formuláře vybraného elementu DOM.
+*/
+.selected_form label{
+    display:inline-block;
+    width:4em;
+}
+
